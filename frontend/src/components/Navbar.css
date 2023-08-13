@@ -1,0 +1,59 @@
+.mycard{
+  transition: transform 0.5s;
+}
+.mycard:hover{
+    transform: scale(1.2); /* Move 10 pixels to the right on hover */
+  transition: transform 0.3s ease;
+  border-bottom: 2px solid rgb(118, 118, 118);
+}
+/*  */
+.mybtn{
+  background-color: rgba(220, 220, 220, 0.885);
+  color: black;
+  transition: transform 0.5s;
+}
+.mybtn:hover{
+  background-color: rgba(220, 220, 220, 0.885);
+
+  color:white;
+  transform: scale(1.2);
+}
+.first_background{
+  webkit-transition: background-image 0.2s ease-in-out;
+transition: background-image 0.2s ease-in-out;
+}
+
+
+.side-text{
+  /* transform: translateX(0);
+   */
+   /* display:none; */
+   opacity:0;
+   transition: opacity 1s linear;
+}
+.side-text::after{
+  opacity:1;
+}
+.eachcard{
+  transition: transform 0.5s;
+}
+.eachcard:hover{
+  transform:scale(1.2);
+}
+.navbutton{
+  transition: transform 0.4s;
+}
+.navbutton:hover{
+  transform: scale(1.3);
+}
+/* input:hover{
+  transform: scaleX(1.2);
+} */
+
+.goto:hover{
+  color: blue;
+  text-decoration: underline;
+}
+.card-now{
+  cursor: pointer;
+}
